@@ -1,0 +1,6 @@
+{
+  "name": "장애인활동지원 급여제공일정표 관리시스템",
+  "description": "장애인 활동지원사의 월별 급여제공일정표를 작성, 조회, PDF 및 엑셀 다운로드하는 시스템입니다. 일괄 입력 및 패턴 복사 기능을 통해 입력 편의성을 극대화하였습니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

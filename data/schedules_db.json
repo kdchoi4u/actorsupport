@@ -1,0 +1,719 @@
+{
+  "workers": [
+    {
+      "id": "w1",
+      "name": "김철수",
+      "role": "worker",
+      "defaultRecipientName": "홍길동",
+      "defaultRecipientBirth": "1955-08-15"
+    },
+    {
+      "id": "w2",
+      "name": "이영희",
+      "role": "worker",
+      "defaultRecipientName": "정우성",
+      "defaultRecipientBirth": "1960-03-22"
+    },
+    {
+      "id": "w3",
+      "name": "박민수",
+      "role": "worker",
+      "defaultRecipientName": "김희선",
+      "defaultRecipientBirth": "1972-11-05"
+    },
+    {
+      "id": "admin",
+      "name": "관리자",
+      "role": "admin"
+    }
+  ],
+  "recipients": [
+    {
+      "id": "r1",
+      "name": "홍길동",
+      "birth": "1955-08-15"
+    },
+    {
+      "id": "r2",
+      "name": "정우성",
+      "birth": "1960-03-22"
+    },
+    {
+      "id": "r3",
+      "name": "김희선",
+      "birth": "1972-11-05"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "s_1783125298532",
+      "workerName": "이영희",
+      "recipientName": "정우성",
+      "recipientBirth": "1960-03-22",
+      "year": 2026,
+      "month": 7,
+      "days": {
+        "1": {
+          "slot1": {
+            "start": "22:40",
+            "end": "09:38"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 10,
+            "social": 1,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 0
+        },
+        "2": {
+          "slot1": {
+            "start": "",
+            "end": ""
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 0,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 0
+        },
+        "3": {
+          "slot1": {
+            "start": "",
+            "end": ""
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 0,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 0
+        },
+        "4": {
+          "slot1": {
+            "start": "",
+            "end": ""
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 0,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 0
+        },
+        "5": {
+          "slot1": {
+            "start": "09:00",
+            "end": "10:38"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 0.8,
+            "social": 0.8,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 1.6
+        },
+        "6": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "7": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "8": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "9": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "10": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "11": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "12": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "13": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "14": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "15": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "16": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "17": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "18": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "19": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "20": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "21": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "22": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "23": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "24": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "25": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "26": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "27": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "28": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "29": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "30": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        },
+        "31": {
+          "slot1": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "break": {
+            "start": "",
+            "end": ""
+          },
+          "slot2": {
+            "start": "",
+            "end": ""
+          },
+          "categories": {
+            "physical": 3,
+            "social": 0,
+            "household": 0,
+            "other": 0
+          },
+          "totalHours": 3
+        }
+      },
+      "totals": {
+        "totalHours": 79.6,
+        "physical": 88.8,
+        "social": 1.8,
+        "household": 0,
+        "other": 0
+      },
+      "submittedDate": "2026-07-16",
+      "recipientSignature": "data:image/png;base64,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"
+    }
+  ]
+}
